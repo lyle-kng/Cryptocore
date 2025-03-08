@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Correlation Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Correlation Tracker</h1>
+        <div class="crypto-container">
+            <div class="crypto-box">
+                <h2>Bitcoin (BTC)</h2>
+                <p id="btc-price">Loading...</p>
+            </div>
+            <div class="crypto-box">
+                <h2>XRP</h2>
+                <p id="xrp-price">Loading...</p>
+            </div>
+        </div>
+        <canvas id="chart"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
